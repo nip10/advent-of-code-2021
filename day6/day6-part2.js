@@ -6,6 +6,8 @@ const initialState = fs
   .toString()
   .split(",")
   .map(Number);
+
+// Could use and array too, and even simplify the code using shift() for example.
 const stateMap = new Map();
 for (let i = 0; i < 9; i++) {
   stateMap.set(
